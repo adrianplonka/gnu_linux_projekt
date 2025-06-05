@@ -1,7 +1,4 @@
-# gnu_linux_projekt
-Projekt na kurs Programy użytkowe w systemie GNU/Linux
-
-# Gra – Escape Room: GNU/Linux Edition
+# Gra – Escape Room: GNU/Linux 
 
 Ten projekt to interaktywna gra edukacyjna w stylu escape roomu, która łączy mechanikę rozgrywki z nauką podstaw systemu GNU/Linux, poleceń terminala oraz popularnych narzędzi open-source. Gracz, aby przejść dalej, musi poprawnie odpowiadać na pytania związane z obsługą systemu i oprogramowaniem edukacyjnym.
 
