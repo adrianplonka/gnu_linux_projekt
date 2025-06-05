@@ -1,0 +1,95 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\title{Systemy użytkowe w GNU/Linux projekt \\ \small Escape Room}
+\author{Adrian Płonka, Aleksandra Pacułt, Julia Skiba}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Cel projektu}
+\begin{itemize}
+    \item Interaktywna gra edukacyjna łącząca elementy escape roomu z zagadnieniami poznanymi w trakcie kursu
+    \item Gracz przechodzi przez kolejne pokoje odpowiadając na pytania lub tworząc krótkie komendy w bashu
+    \item Gra stworzona w \textbf{Pythonie (Pygame)}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Mechanika rozgrywki}
+\begin{itemize}
+    \item Wirtualne pokoje z zadaniami z zakresu:
+    \begin{itemize}
+        \item powłoki bash
+        \item pakietu LibreOffice
+        \item programów do edycji grafiki: GIMP, Inkscape
+        \item programu RStudio
+    \end{itemize}
+    \item Interakcje z przedmiotami i strefami aktywacyjnymi
+    \item Odpowiedzi odblokowują przejścia, zmieniają układ pokoju, odkrywają nowe elementy
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Tematyka edukacyjna}
+\begin{itemize}
+    \item Nawigacja i praca z plikami w terminalu bash
+    \item Polecenia systemowe (chmod, echo, man itp.)
+    \item Praca z plikami tekstowymi
+    \item Edytory graficzne: GIMP, Inkscape
+    \item Tworzenie dokumentów w LaTeX-U
+    \item Obsługa funkcji w języku R
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Przykładowe pytania}
+\begin{itemize}
+    \item Jaką funkcję w R używa się do sprawdzenia katalogu roboczego?
+    \item Jakie polecenie wypisze dokumentację programu w systemie Linux?
+    \item Jak nazywa się darmowy edytoe grafiki rastrowej?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Struktura projektu}
+\begin{itemize}
+    \item \texttt{skrypt/} – finalne skrypty gry (Linux/Windows)
+    \item \texttt{images/} – grafiki
+    \item \texttt{other\_files/} – dodatkowe pliki
+    \item \texttt{gnu\_linux\_projekt.tar} – pełna wersja gry
+    \item \texttt{gnu\_lin\_prezentacja} - prezentacja 
+    \item \texttt{kod\_prezentacja} - kod do prezentacji w LaTeX
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Autorzy projektu}
+\begin{itemize}
+    \item \textbf{Adrian Płonka} – kod gry w Pythonie
+    \item \textbf{Aleksandra Pacuł} – kod gry w Pythonie
+    \item \textbf{Julia Skiba} – pytania, prezentacja w LaTeX
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Źródła i narzędzia}
+\begin{itemize}
+    \item system GNU
+    \item język R
+    \item edytor grafiki GIMP
+    \item grafika wektorowa Inkscape
+    \item program LaTeX
+    \item chatGPT - pomoc w pisaniu kodu
+    
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dziękujemy za uwagę!}
+\centering
+\Large Zagrajmy w grę!
+\end{frame}
+
+\end{document}
