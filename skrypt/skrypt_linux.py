@@ -27,8 +27,8 @@ player_speed = 4
 
 ################## LOADING GRAPHICS FOR BACKROUND ############################
 
-tutorial = load_image("images/tutorial.png", (WIDTH, HEIGHT))
-tutorial_1 = load_image("images/tutorial_1.png", (WIDTH, HEIGHT))
+tutorial = load_image("images/Tutorial.png", (WIDTH, HEIGHT))
+tutorial_1 = load_image("images/Tutorial_1.png", (WIDTH, HEIGHT))
 room1 = load_image("images/image1.png", (WIDTH, HEIGHT))
 room2 = load_image("images/image0.png", (WIDTH, HEIGHT))
 room3 = load_image("images/image2.png", (WIDTH, HEIGHT))
@@ -51,7 +51,7 @@ lab_1 = load_image("images/lab_1.png", (100, 100))
 lab_2 = load_image("images/lab_2.png", (100, 100))
 lab_3 = load_image("images/lab_3.png", (100, 100))
 lab_4 = load_image("images/lab_4.png", (150, 150))
-lab_5 = load_image("imageslab_5.png", (100, 100))
+lab_5 = load_image("images/lab_5.png", (100, 100))
 
 ### room3 ###
 
@@ -97,14 +97,14 @@ puzzles_rooms = [
                 'rect': pygame.Rect(900, 450, 50, 50),
                 'image': laptop_3,
                 'question': "W której lini pliku seq.fasta znajduje się sekwencja CCGTAGCTAGCATGGTTAG",
-                'answer': "7",
+                'answer': "8",
                 'fragment': 'L',
                 'open_terminal': True,
             },
             {
                 'rect': pygame.Rect(800, 200, 80, 80),
                 'image': laptop_4,
-                'question': "Jakie hasło znajduje się w pliku pass/word",
+                'question': "Jakie hasło znajduje się w pliku pass/word.txt",
                 'answer': "linux",
                 'fragment': 'E',
                 'open_terminal': True,
