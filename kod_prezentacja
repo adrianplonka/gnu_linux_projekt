@@ -3,7 +3,6 @@
 \usepackage[polish]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\usepackage{listings}
 \usepackage{hyperref}
 
 \title{Systemy użytkowe w GNU/Linux projekt \\ \small Escape Room}
